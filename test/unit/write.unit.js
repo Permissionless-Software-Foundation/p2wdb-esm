@@ -3,14 +3,17 @@
 */
 
 // Public npm libraries
-const assert = require('chai').assert
-const sinon = require('sinon')
-const cloneDeep = require('lodash.clonedeep')
-const BchWallet = require('minimal-slp-wallet/index')
+import chai from 'chai'
+import sinon from 'sinon'
+import cloneDeep from 'lodash.clonedeep'
+import BchWallet from 'minimal-slp-wallet/index.js'
 
 // Local libraries
-const Write = require('../../lib/write')
-const mockDataLib = require('./mocks/write-mocks.js')
+import Write from '../../lib/write.js'
+
+import mockDataLib from './mocks/write-mocks.js'
+
+const assert = chai.assert
 
 // Constants used for tests.
 const WIF = 'L1tcvcqa5PztqqDH4ZEcUmHA9aSHhTau5E2Zwp1xEK5CrKBrjP3m'

@@ -3,7 +3,11 @@
 */
 
 // Global npm libraries
-const BchWallet = require('minimal-slp-wallet/index')
+import BchWallet from 'minimal-slp-wallet/index.js'
+
+// const serverURL = 'http://localhost:5010'
+
+import { Write } from '../../index.js'
 
 // Replace this private key and public address with your own. You can generate
 // new values at wallet.fullstack.cash.
@@ -13,9 +17,7 @@ const WIF = 'L4fuiZ4NRp25yA4os6ToQCzGry9QmFZ1d5fgy9764YyziKcGR7dC'
 // SLP Address: simpleledger:qqkg30ryje97al52htqwvveha538y7gttyz8q2dd7j
 
 const serverURL = 'https://p2wdb.fullstack.cash'
-// const serverURL = 'http://localhost:5010'
 
-const { Write } = require('../../index')
 // const { Write } = require('p2wdb')
 
 async function writeNode () {

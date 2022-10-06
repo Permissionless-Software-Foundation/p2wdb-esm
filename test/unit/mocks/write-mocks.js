@@ -14,6 +14,6 @@ const tokenOutput01 = [
   }
 ]
 
-module.exports = {
+export default {
   tokenOutput01
 }

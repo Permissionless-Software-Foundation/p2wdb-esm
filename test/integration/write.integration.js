@@ -3,11 +3,12 @@
 */
 
 // Public npm libraries
-const assert = require('chai').assert
-const BchWallet = require('minimal-slp-wallet/index')
+import { assert } from 'chai'
+
+import BchWallet from 'minimal-slp-wallet/index'
 
 // Local libraries
-const WriteP2wdb = require('../../lib/write')
+import WriteP2wdb from '../../lib/write'
 
 describe('#write.js', () => {
   let uut

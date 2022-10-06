@@ -2,7 +2,8 @@
   This is a code example for reading data from the P2WDB using node.js JavaScript.
 */
 
-const { Read } = require('../../index')
+import { Read } from '../../index.js'
+
 // const { Read } = require('p2wdb')
 
 const hash = 'zdpuB3EnMBne7fePcj9saqF7rU8Zxv7hhkW4xqNNA5Sm2765o'

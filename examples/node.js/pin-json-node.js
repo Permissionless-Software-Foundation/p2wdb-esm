@@ -8,7 +8,10 @@
 */
 
 // Global npm libraries
-const BchWallet = require('minimal-slp-wallet/index')
+import BchWallet from 'minimal-slp-wallet/index.js'
+
+// Local libraries
+import { Pin, Write } from '../../index.js'
 
 // Replace this private key and public address with your own. You can generate
 // new values at wallet.fullstack.cash.
@@ -20,8 +23,6 @@ const WIF = 'L1tcvcqa5PztqqDH4ZEcUmHA9aSHhTau5E2Zwp1xEK5CrKBrjP3m'
 const P2WDB_SERVER = 'http://localhost:5010'
 const P2WDB_PINNING_SERVICE = 'http://localhost:5021'
 
-// Local libraries
-const { Pin, Write } = require('../../index')
 // const { Pin, Write } = require('p2wdb')
 
 async function pinJSON () {

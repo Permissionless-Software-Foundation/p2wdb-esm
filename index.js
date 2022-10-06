@@ -7,8 +7,8 @@
 
 'use strict'
 
-const Read = require('./lib/read')
-const Write = require('./lib/write')
-const Pin = require('./lib/pin')
+import Read from './lib/read.js'
+import Write from './lib/write.js'
+import Pin from './lib/pin.js'
 
-module.exports = { Read, Write, Pin }
+export default { Read, Write, Pin }

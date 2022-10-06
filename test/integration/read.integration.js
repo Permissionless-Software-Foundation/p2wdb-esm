@@ -3,10 +3,10 @@
 */
 
 // Public npm libraries
-const assert = require('chai').assert
+import { assert } from 'chai'
 
 // Local libraries
-const ReadP2wdb = require('../../lib/read')
+import ReadP2wdb from '../../lib/read'
 
 describe('#read.js', () => {
   let uut

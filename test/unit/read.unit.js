@@ -3,11 +3,13 @@
 */
 
 // Public npm libraries
-const assert = require('chai').assert
-const sinon = require('sinon')
+import chai from 'chai'
+import sinon from 'sinon'
 
 // Local libraries
-const ReadP2wdb = require('../../lib/read')
+import ReadP2wdb from '../../lib/read.js'
+
+const assert = chai.assert
 
 describe('#read.js', () => {
   let uut, sandbox
