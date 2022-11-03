@@ -1,6 +1,6 @@
 {
   "name": "p2wdb-esm",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "description": "An ESM version of p2wdb",
   "main": "./index.js",
   "type": "module",
