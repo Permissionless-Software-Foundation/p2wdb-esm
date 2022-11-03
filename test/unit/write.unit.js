@@ -6,7 +6,7 @@
 import chai from 'chai'
 import sinon from 'sinon'
 import cloneDeep from 'lodash.clonedeep'
-import BchWallet from 'minimal-slp-wallet/index.js'
+import BchWallet from 'minimal-slp-wallet'
 
 // Local libraries
 import Write from '../../lib/write.js'

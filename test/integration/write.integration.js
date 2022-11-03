@@ -5,7 +5,7 @@
 // Public npm libraries
 import { assert } from 'chai'
 
-import BchWallet from 'minimal-slp-wallet/index'
+import BchWallet from 'minimal-slp-wallet'
 
 // Local libraries
 import WriteP2wdb from '../../lib/write'
